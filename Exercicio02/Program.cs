@@ -15,7 +15,7 @@ namespace Exercicio02
 
             decimal.TryParse(valorDigitado, out valorConvertido);
 
-            decimal valorCambioConvertido = valorConvertido / valorCambio;
+            decimal valorCambioConvertido = valorConvertido * valorCambio;
 
             Console.WriteLine($"Valor R$: {valorCambioConvertido}");
 
